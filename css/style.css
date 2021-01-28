@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+section#login-page{
+    /* background-color: beige; */
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 15px;
+}
+
+section#login-page h1{
+    text-align: center;
+    color: #5e5b5b;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+ section#login-page input{
+     margin-bottom: 10px;
+    /* width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    font-size: 18px; */
+ }
+
+ section#login-page button{
+     outline: none; 
+     border: none;
+ }
+
+ @media only screen and (max-width: 992px){
+     body{
+         padding: 50px;
+     }
+
+     section#login-page{
+         width: 80%;
+     }
+ }
+
+ section#main-page{
+     display: none;
+ }
